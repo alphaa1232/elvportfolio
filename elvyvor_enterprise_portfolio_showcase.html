@@ -1,0 +1,1026 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elvyvor Enterprise IT Consulting | Past Performance & Proof Showcase</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            50: '#f0f9ff',
+                            100: '#e0f2fe',
+                            400: '#38bdf8',
+                            500: '#0ea5e9',
+                            600: '#0284c7',
+                            900: '#0c4a6e',
+                            950: '#032030'
+                        },
+                        cyber: {
+                            emerald: '#10b981',
+                            cyan: '#06b6d4',
+                            indigo: '#6366f1',
+                            purple: '#8b5cf6',
+                            rose: '#f43f5e'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'system-ui', 'sans-serif'],
+                        mono: ['Fira Code', 'JetBrains Mono', 'monospace']
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Chart.js for Growth Analytics -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        /* Custom scrollbar & futuristic glow effects */
+        ::-webkit-scrollbar {
+            width: 6px;
+            height: 6px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #090d16;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #1e293b;
+            border-radius: 3px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #0ea5e9;
+        }
+        .glow-cyan {
+            box-shadow: 0 0 25px -5px rgba(6, 182, 212, 0.3);
+        }
+        .glow-emerald {
+            box-shadow: 0 0 25px -5px rgba(16, 185, 129, 0.3);
+        }
+        .glow-indigo {
+            box-shadow: 0 0 25px -5px rgba(99, 102, 241, 0.3);
+        }
+        .glass-panel {
+            background: rgba(15, 23, 42, 0.75);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        .terminal-bg {
+            background: #070a11;
+        }
+    </style>
+</head>
+<body class="bg-slate-950 text-slate-100 font-sans antialiased selection:bg-cyan-500 selection:text-slate-950 min-h-screen flex flex-col">
+
+    <!-- TOP NAV BAR -->
+    <header class="sticky top-0 z-40 w-full glass-panel border-b border-slate-800/80">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <!-- Brand Logo -->
+            <div class="flex items-center gap-3">
+                <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-cyan-500 via-indigo-500 to-purple-600 p-0.5 shadow-lg shadow-cyan-500/20">
+                    <div class="w-full h-full bg-slate-950 rounded-[10px] flex items-center justify-center">
+                        <i class="fa-solid fa-cube text-cyan-400 text-xl"></i>
+                    </div>
+                </div>
+                <div>
+                    <span class="text-xl font-extrabold tracking-tight bg-gradient-to-r from-white via-slate-200 to-slate-400 bg-clip-text text-transparent">ELVYVOR</span>
+                    <span class="block text-[10px] tracking-widest text-cyan-400 font-mono uppercase -mt-1">Enterprise IT Consulting</span>
+                </div>
+            </div>
+
+            <!-- Header Quick Info & CTA -->
+            <div class="hidden md:flex items-center gap-6">
+                <a href="tel:+919869043555" class="flex items-center gap-2 text-xs font-mono text-slate-300 hover:text-cyan-400 transition-colors">
+                    <i class="fa-solid fa-phone text-cyan-400"></i> +91 9869043555
+                </a>
+                <a href="mailto:connect@elvyvor.com" class="flex items-center gap-2 text-xs font-mono text-slate-300 hover:text-cyan-400 transition-colors">
+                    <i class="fa-solid fa-envelope text-cyan-400"></i> connect@elvyvor.com
+                </a>
+                <a href="#contact" class="px-4 py-2 text-xs font-semibold rounded-lg bg-cyan-500 hover:bg-cyan-400 text-slate-950 transition-all shadow-md shadow-cyan-500/20 flex items-center gap-2">
+                    <i class="fa-solid fa-paper-plane"></i> Initiate Proposal
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="relative overflow-hidden pt-12 pb-16 bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950">
+        <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#38bdf8_1px,transparent_1px)] [background-size:24px_24px]"></div>
+        
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="max-w-3xl">
+                <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-cyan-950/80 border border-cyan-500/30 text-cyan-400 text-xs font-mono mb-4">
+                    <span class="w-2 h-2 rounded-full bg-cyan-400 animate-pulse"></span>
+                    VERIFIED PERFORMANCE ARCHIVE & LIVE DEMONSTRATIONS
+                </div>
+                <h1 class="text-3xl sm:text-5xl font-black tracking-tight text-white leading-tight">
+                    Engineering High-Impact Solutions. <br>
+                    <span class="bg-gradient-to-r from-cyan-400 via-emerald-400 to-indigo-400 bg-clip-text text-transparent">
+                        Backed by Live Interactive Proof.
+                    </span>
+                </h1>
+                <p class="mt-4 text-base sm:text-lg text-slate-400 leading-relaxed">
+                    Explore Elvyvor’s track record across Web Engineering, AI Models, Zero-Trust Cybersecurity, Industrial Robotics, Growth Systems, and Blockchain DLT. Test our real-time interactive sandboxes below.
+                </p>
+            </div>
+
+            <!-- Quick Metrics Header Banner -->
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mt-10">
+                <div class="p-4 rounded-xl glass-panel border-l-4 border-l-cyan-500">
+                    <p class="text-2xl font-mono font-bold text-white">99.99%</p>
+                    <p class="text-xs text-slate-400 font-mono mt-1">Uptime SLA Guaranteed</p>
+                </div>
+                <div class="p-4 rounded-xl glass-panel border-l-4 border-l-emerald-500">
+                    <p class="text-2xl font-mono font-bold text-white">&lt; 40ms</p>
+                    <p class="text-xs text-slate-400 font-mono mt-1">Avg. Global Latency</p>
+                </div>
+                <div class="p-4 rounded-xl glass-panel border-l-4 border-l-indigo-500">
+                    <p class="text-2xl font-mono font-bold text-white">$140M+</p>
+                    <p class="text-xs text-slate-400 font-mono mt-1">Client Value Generated</p>
+                </div>
+                <div class="p-4 rounded-xl glass-panel border-l-4 border-l-purple-500">
+                    <p class="text-2xl font-mono font-bold text-white">SOC 2 / ISO</p>
+                    <p class="text-xs text-slate-400 font-mono mt-1">Audited Security Standards</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- DOMAIN NAVIGATION TABS -->
+    <section class="sticky top-20 z-30 bg-slate-950/90 backdrop-blur-md border-y border-slate-800 py-3">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center gap-2 overflow-x-auto no-scrollbar pb-1 pt-1" id="domain-tabs">
+                <button onclick="switchCategory('all')" data-cat="all" class="tab-btn px-4 py-2 rounded-xl text-xs font-semibold whitespace-nowrap transition-all bg-cyan-500 text-slate-950 shadow-md">
+                    <i class="fa-solid fa-border-all mr-1.5"></i> All Verticals
+                </button>
+                <button onclick="switchCategory('web')" data-cat="web" class="tab-btn px-4 py-2 rounded-xl text-xs font-semibold whitespace-nowrap transition-all bg-slate-900 text-slate-300 hover:bg-slate-800 border border-slate-800">
+                    <i class="fa-solid fa-code mr-1.5 text-cyan-400"></i> Web & App Dev
+                </button>
+                <button onclick="switchCategory('ai')" data-cat="ai" class="tab-btn px-4 py-2 rounded-xl text-xs font-semibold whitespace-nowrap transition-all bg-slate-900 text-slate-300 hover:bg-slate-800 border border-slate-800">
+                    <i class="fa-solid fa-brain mr-1.5 text-purple-400"></i> AI & LLMs
+                </button>
+                <button onclick="switchCategory('cyber')" data-cat="cyber" class="tab-btn px-4 py-2 rounded-xl text-xs font-semibold whitespace-nowrap transition-all bg-slate-900 text-slate-300 hover:bg-slate-800 border border-slate-800">
+                    <i class="fa-solid fa-shield-halved mr-1.5 text-emerald-400"></i> Zero-Trust Cyber
+                </button>
+                <button onclick="switchCategory('robotics')" data-cat="robotics" class="tab-btn px-4 py-2 rounded-xl text-xs font-semibold whitespace-nowrap transition-all bg-slate-900 text-slate-300 hover:bg-slate-800 border border-slate-800">
+                    <i class="fa-solid fa-robot mr-1.5 text-rose-400"></i> Robotics & IoT
+                </button>
+                <button onclick="switchCategory('marketing')" data-cat="marketing" class="tab-btn px-4 py-2 rounded-xl text-xs font-semibold whitespace-nowrap transition-all bg-slate-900 text-slate-300 hover:bg-slate-800 border border-slate-800">
+                    <i class="fa-solid fa-chart-line mr-1.5 text-amber-400"></i> Digital Growth
+                </button>
+                <button onclick="switchCategory('blockchain')" data-cat="blockchain" class="tab-btn px-4 py-2 rounded-xl text-xs font-semibold whitespace-nowrap transition-all bg-slate-900 text-slate-300 hover:bg-slate-800 border border-slate-800">
+                    <i class="fa-solid fa-link mr-1.5 text-indigo-400"></i> Blockchain DLT
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- MAIN PORTFOLIO & SANDBOX AREA -->
+    <main class="flex-grow max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-8 py-10 space-y-16">
+
+        <!-- SECTION 1: INTERACTIVE DEMO SANDBOXES -->
+        <section id="sandbox-section" class="space-y-6">
+            <div class="flex items-center justify-between">
+                <div>
+                    <span class="text-xs font-mono text-cyan-400 uppercase tracking-widest">Hands-On Validation</span>
+                    <h2 class="text-2xl font-bold text-white">Live Technology Proof Sandboxes</h2>
+                </div>
+                <span class="hidden sm:inline-block text-xs text-slate-400 font-mono bg-slate-900 px-3 py-1 rounded-md border border-slate-800">
+                    <i class="fa-solid fa-bolt text-amber-400 mr-1"></i> Real-Time Interactive Engines
+                </span>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                
+                <!-- DEMO 1: WEB DEV LIGHTHOUSE AUDITOR -->
+                <div class="sandbox-card glass-panel rounded-2xl p-6 border border-slate-800 flex flex-col justify-between" data-cat="web">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <span class="px-2.5 py-1 rounded-md bg-cyan-500/10 border border-cyan-500/30 text-cyan-400 text-xs font-mono">
+                                <i class="fa-solid fa-code mr-1"></i> Web & App Dev
+                            </span>
+                            <span class="text-xs text-slate-400 font-mono">Live Core Web Vitals Auditor</span>
+                        </div>
+                        <h3 class="text-lg font-bold text-white">Next.js Headless Commerce Engine</h3>
+                        <p class="text-xs text-slate-400 mt-1">Audit sub-50ms render latency and performance score achieved for FinTech client.</p>
+
+                        <!-- Interactive Web Auditor Canvas -->
+                        <div class="mt-6 terminal-bg p-4 rounded-xl border border-slate-800">
+                            <div class="grid grid-cols-4 gap-2 text-center">
+                                <div class="p-3 bg-slate-900/80 rounded-lg border border-emerald-500/30">
+                                    <p class="text-2xl font-black text-emerald-400" id="lh-score">99</p>
+                                    <p class="text-[10px] font-mono text-slate-400 mt-1">Performance</p>
+                                </div>
+                                <div class="p-3 bg-slate-900/80 rounded-lg border border-emerald-500/30">
+                                    <p class="text-2xl font-black text-emerald-400">100</p>
+                                    <p class="text-[10px] font-mono text-slate-400 mt-1">Accessibility</p>
+                                </div>
+                                <div class="p-3 bg-slate-900/80 rounded-lg border border-emerald-500/30">
+                                    <p class="text-2xl font-black text-emerald-400">100</p>
+                                    <p class="text-[10px] font-mono text-slate-400 mt-1">Best Practices</p>
+                                </div>
+                                <div class="p-3 bg-slate-900/80 rounded-lg border border-emerald-500/30">
+                                    <p class="text-2xl font-black text-emerald-400">100</p>
+                                    <p class="text-[10px] font-mono text-slate-400 mt-1">SEO Score</p>
+                                </div>
+                            </div>
+                            <div class="mt-4 pt-4 border-t border-slate-800 text-xs font-mono space-y-2 text-slate-300">
+                                <div class="flex justify-between">
+                                    <span>First Contentful Paint (FCP):</span>
+                                    <span class="text-emerald-400 font-bold" id="fcp-val">0.3s</span>
+                                </div>
+                                <div class="flex justify-between">
+                                    <span>Largest Contentful Paint (LCP):</span>
+                                    <span class="text-emerald-400 font-bold" id="lcp-val">0.7s</span>
+                                </div>
+                                <div class="flex justify-between">
+                                    <span>Cumulative Layout Shift (CLS):</span>
+                                    <span class="text-emerald-400 font-bold">0.000</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-6 flex items-center justify-between">
+                        <button onclick="runAuditSimulation()" class="px-4 py-2 rounded-lg bg-cyan-500/20 hover:bg-cyan-500/30 border border-cyan-500/50 text-cyan-300 text-xs font-mono transition-all">
+                            <i class="fa-solid fa-rotate mr-1"></i> Re-Run Lighthouse Audit
+                        </button>
+                        <button onclick="openCaseStudy('cs-web-1')" class="text-xs font-semibold text-cyan-400 hover:underline">
+                            View Architecture <i class="fa-solid fa-arrow-right ml-1"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- DEMO 2: AI FINE-TUNED LLM PROMPT SANDBOX -->
+                <div class="sandbox-card glass-panel rounded-2xl p-6 border border-slate-800 flex flex-col justify-between" data-cat="ai">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <span class="px-2.5 py-1 rounded-md bg-purple-500/10 border border-purple-500/30 text-purple-400 text-xs font-mono">
+                                <i class="fa-solid fa-brain mr-1"></i> AI & LLM Engineering
+                            </span>
+                            <span class="text-xs text-slate-400 font-mono">Private RAG Model Speed Test</span>
+                        </div>
+                        <h3 class="text-lg font-bold text-white">Healthcare Compliance AI Inference</h3>
+                        <p class="text-xs text-slate-400 mt-1">Test token generation speed & sub-100ms response time on sanitized clinical prompt.</p>
+
+                        <!-- Interactive AI Prompt Simulator -->
+                        <div class="mt-6 terminal-bg p-4 rounded-xl border border-slate-800">
+                            <label class="block text-[11px] font-mono text-slate-400 mb-1">Select Enterprise Prompt Template:</label>
+                            <select id="ai-prompt-select" onchange="updatePromptText()" class="w-full bg-slate-900 border border-slate-700 text-slate-200 text-xs rounded-lg p-2 font-mono mb-3 focus:outline-none focus:border-purple-500">
+                                <option value="hipaa">Analyze HIPAA Privacy Safeguards for Multi-Tenant EHR</option>
+                                <option value="fraud">Detect Anomalous Payment Patterns in Real-time Ledger</option>
+                                <option value="contract">Extract Indemnity & SLA Clauses from Enterprise Vendor Agreement</option>
+                            </select>
+
+                            <div class="p-3 bg-slate-950 rounded-lg border border-slate-800 font-mono text-xs text-slate-300 min-h-[90px] flex flex-col justify-between" id="ai-output-box">
+                                <p text-slate-400 id="ai-response-text">Click "Run LLM Inference" to stream response tokens...</p>
+                                <div class="mt-2 pt-2 border-t border-slate-900 flex justify-between text-[10px] text-purple-400">
+                                    <span id="ai-speed">Latency: -- ms</span>
+                                    <span id="ai-tokens">Tokens/sec: --</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-6 flex items-center justify-between">
+                        <button onclick="runAiInference()" class="px-4 py-2 rounded-lg bg-purple-500/20 hover:bg-purple-500/30 border border-purple-500/50 text-purple-300 text-xs font-mono transition-all">
+                            <i class="fa-solid fa-play mr-1"></i> Run LLM Inference
+                        </button>
+                        <button onclick="openCaseStudy('cs-ai-1')" class="text-xs font-semibold text-purple-400 hover:underline">
+                            View Case Blueprint <i class="fa-solid fa-arrow-right ml-1"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- DEMO 3: CYBERSECURITY REAL-TIME SOC TELEMETRY -->
+                <div class="sandbox-card glass-panel rounded-2xl p-6 border border-slate-800 flex flex-col justify-between" data-cat="cyber">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <span class="px-2.5 py-1 rounded-md bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 text-xs font-mono">
+                                <i class="fa-solid fa-shield-halved mr-1"></i> Zero-Trust Cyber
+                            </span>
+                            <span class="text-xs text-emerald-400 font-mono flex items-center gap-1">
+                                <span class="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span> Live SOC Terminal
+                            </span>
+                        </div>
+                        <h3 class="text-lg font-bold text-white">Automated Threat Mitigation SOC</h3>
+                        <p class="text-xs text-slate-400 mt-1">Simulated real-time detection & containment of unauthorized DDoS and brute force triggers.</p>
+
+                        <div class="mt-6 terminal-bg p-4 rounded-xl border border-slate-800 font-mono text-xs">
+                            <div class="flex justify-between text-slate-400 border-b border-slate-800 pb-2 mb-2 text-[11px]">
+                                <span>Threat Event Feed</span>
+                                <span class="text-emerald-400">Zero-Trust Level 5</span>
+                            </div>
+                            <div id="soc-logs" class="space-y-2 h-24 overflow-y-auto text-[11px] no-scrollbar">
+                                <p class="text-slate-400">[14:22:01] System Normal. Monitoring 4,200 active endpoints...</p>
+                                <p class="text-emerald-400">[14:22:04] ISO 27001 Policy Enforcement Active.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-6 flex items-center justify-between">
+                        <button onclick="triggerThreatSim()" class="px-4 py-2 rounded-lg bg-emerald-500/20 hover:bg-emerald-500/30 border border-emerald-500/50 text-emerald-300 text-xs font-mono transition-all">
+                            <i class="fa-solid fa-bug mr-1"></i> Simulate Cyber Attack
+                        </button>
+                        <button onclick="openCaseStudy('cs-cyber-1')" class="text-xs font-semibold text-emerald-400 hover:underline">
+                            View SOC Setup <i class="fa-solid fa-arrow-right ml-1"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- DEMO 4: ROBOTICS & IOT DIGITAL TWIN TELEMETRY -->
+                <div class="sandbox-card glass-panel rounded-2xl p-6 border border-slate-800 flex flex-col justify-between" data-cat="robotics">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <span class="px-2.5 py-1 rounded-md bg-rose-500/10 border border-rose-500/30 text-rose-400 text-xs font-mono">
+                                <i class="fa-solid fa-robot mr-1"></i> Smart Robotics & IoT
+                            </span>
+                            <span class="text-xs text-slate-400 font-mono">Digital Twin Telemetry</span>
+                        </div>
+                        <h3 class="text-lg font-bold text-white">Automated Assembly Line Monitor</h3>
+                        <p class="text-xs text-slate-400 mt-1">Sub-millisecond IoT sensor processing for predictive maintenance in smart factories.</p>
+
+                        <div class="mt-6 terminal-bg p-4 rounded-xl border border-slate-800">
+                            <div class="grid grid-cols-3 gap-3 text-center">
+                                <div class="p-3 bg-slate-900 rounded-lg border border-slate-800">
+                                    <p class="text-xs text-slate-400 font-mono">RPM Speed</p>
+                                    <p class="text-lg font-bold text-rose-400 font-mono mt-1" id="iot-rpm">1,840</p>
+                                </div>
+                                <div class="p-3 bg-slate-900 rounded-lg border border-slate-800">
+                                    <p class="text-xs text-slate-400 font-mono">Temp (°C)</p>
+                                    <p class="text-lg font-bold text-amber-400 font-mono mt-1" id="iot-temp">42.8°</p>
+                                </div>
+                                <div class="p-3 bg-slate-900 rounded-lg border border-slate-800">
+                                    <p class="text-xs text-slate-400 font-mono">Vibration</p>
+                                    <p class="text-lg font-bold text-emerald-400 font-mono mt-1" id="iot-vib">0.02g</p>
+                                </div>
+                            </div>
+                            <div class="mt-3 p-2 bg-slate-900/50 rounded border border-slate-800 text-[10px] font-mono text-slate-400 flex items-center justify-between">
+                                <span>Predictive Health Index:</span>
+                                <span class="text-emerald-400 font-bold">98.4% Optimal</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-6 flex items-center justify-between">
+                        <button onclick="calibrateIotSensors()" class="px-4 py-2 rounded-lg bg-rose-500/20 hover:bg-rose-500/30 border border-rose-500/50 text-rose-300 text-xs font-mono transition-all">
+                            <i class="fa-solid fa-sliders mr-1"></i> Stress Test Sensors
+                        </button>
+                        <button onclick="openCaseStudy('cs-robotics-1')" class="text-xs font-semibold text-rose-400 hover:underline">
+                            View IoT Blueprint <i class="fa-solid fa-arrow-right ml-1"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- DEMO 5: DIGITAL GROWTH & MARKETING ROI ENGINE -->
+                <div class="sandbox-card glass-panel rounded-2xl p-6 border border-slate-800 flex flex-col justify-between" data-cat="marketing">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <span class="px-2.5 py-1 rounded-md bg-amber-500/10 border border-amber-500/30 text-amber-400 text-xs font-mono">
+                                <i class="fa-solid fa-chart-line mr-1"></i> Digital Growth
+                            </span>
+                            <span class="text-xs text-slate-400 font-mono">Growth Engine Simulator</span>
+                        </div>
+                        <h3 class="text-lg font-bold text-white">Omnichannel Funnel & CRO Engine</h3>
+                        <p class="text-xs text-slate-400 mt-1">Adjust monthly growth spend to model customer acquisition velocity & revenue ROI.</p>
+
+                        <div class="mt-6 terminal-bg p-4 rounded-xl border border-slate-800">
+                            <div class="space-y-3">
+                                <div>
+                                    <div class="flex justify-between text-xs font-mono text-slate-300 mb-1">
+                                        <span>Monthly Growth Investment ($):</span>
+                                        <span class="text-amber-400 font-bold" id="mkt-spend-label">$25,000</span>
+                                    </div>
+                                    <input type="range" id="mkt-spend" min="5000" max="100000" step="5000" value="25000" oninput="updateGrowthModel()" class="w-full accent-amber-400 bg-slate-800 h-1.5 rounded-lg appearance-none cursor-pointer">
+                                </div>
+                                <div class="grid grid-cols-2 gap-2 text-center pt-2">
+                                    <div class="p-2 bg-slate-900 rounded border border-slate-800">
+                                        <p class="text-[10px] text-slate-400 font-mono">Projected Pipeline Value</p>
+                                        <p class="text-sm font-bold font-mono text-emerald-400 mt-0.5" id="mkt-pipeline">$187,500</p>
+                                    </div>
+                                    <div class="p-2 bg-slate-900 rounded border border-slate-800">
+                                        <p class="text-[10px] text-slate-400 font-mono">ROAS Multiplier</p>
+                                        <p class="text-sm font-bold font-mono text-amber-400 mt-0.5">7.5x</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-6 flex items-center justify-between">
+                        <button onclick="updateGrowthModel()" class="px-4 py-2 rounded-lg bg-amber-500/20 hover:bg-amber-500/30 border border-amber-500/50 text-amber-300 text-xs font-mono transition-all">
+                            <i class="fa-solid fa-calculator mr-1"></i> Recalculate Funnel
+                        </button>
+                        <button onclick="openCaseStudy('cs-marketing-1')" class="text-xs font-semibold text-amber-400 hover:underline">
+                            View Campaign Case <i class="fa-solid fa-arrow-right ml-1"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- DEMO 6: BLOCKCHAIN DLT CONTRACT AUDIT EXPLORER -->
+                <div class="sandbox-card glass-panel rounded-2xl p-6 border border-slate-800 flex flex-col justify-between" data-cat="blockchain">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <span class="px-2.5 py-1 rounded-md bg-indigo-500/10 border border-indigo-500/30 text-indigo-400 text-xs font-mono">
+                                <i class="fa-solid fa-link mr-1"></i> Blockchain DLT
+                            </span>
+                            <span class="text-xs text-slate-400 font-mono">Verified Ledger Proof</span>
+                        </div>
+                        <h3 class="text-lg font-bold text-white">Cross-Border Settlement Smart Contract</h3>
+                        <p class="text-xs text-slate-400 mt-1">Inspect immutable audit hash and zero-knowledge proof transaction throughput.</p>
+
+                        <div class="mt-6 terminal-bg p-4 rounded-xl border border-slate-800 font-mono text-xs space-y-2">
+                            <div class="flex justify-between items-center text-[10px] text-slate-400 pb-1 border-b border-slate-800">
+                                <span>Network: Ethereum Mainnet L2</span>
+                                <span class="text-indigo-400">Status: Verified</span>
+                            </div>
+                            <div class="bg-slate-950 p-2 rounded border border-slate-800 text-[10px] break-all text-slate-300">
+                                <span class="text-slate-500">Contract Hash:</span><br>
+                                <span id="block-hash">0x8f3c7a91b...4e92d811f00a</span>
+                            </div>
+                            <div class="grid grid-cols-2 gap-2 text-[11px] pt-1">
+                                <div class="text-slate-400">TPS Capacity: <span class="text-emerald-400 font-bold">4,500</span></div>
+                                <div class="text-slate-400">Finality Time: <span class="text-indigo-400 font-bold">1.2s</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-6 flex items-center justify-between">
+                        <button onclick="verifyBlockContract()" class="px-4 py-2 rounded-lg bg-indigo-500/20 hover:bg-indigo-500/30 border border-indigo-500/50 text-indigo-300 text-xs font-mono transition-all">
+                            <i class="fa-solid fa-circle-check mr-1"></i> Verify On-Chain Hash
+                        </button>
+                        <button onclick="openCaseStudy('cs-blockchain-1')" class="text-xs font-semibold text-indigo-400 hover:underline">
+                            View Smart Contract Case <i class="fa-solid fa-arrow-right ml-1"></i>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- SECTION 2: DETAILED EXECUTIVE CASE STUDIES GRID -->
+        <section class="space-y-6">
+            <div class="flex items-center justify-between">
+                <div>
+                    <span class="text-xs font-mono text-cyan-400 uppercase tracking-widest">Enterprise Portfolio</span>
+                    <h2 class="text-2xl font-bold text-white">In-Depth Past Performance Blueprints</h2>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" id="case-studies-grid">
+                
+                <!-- CASE STUDY 1: WEB DEV -->
+                <div class="case-card glass-panel rounded-xl p-5 border border-slate-800 hover:border-cyan-500/50 transition-all flex flex-col justify-between" data-cat="web">
+                    <div>
+                        <div class="flex items-center justify-between text-xs font-mono text-slate-400 mb-2">
+                            <span>FinTech / Banking</span>
+                            <span class="text-cyan-400">Web Engineering</span>
+                        </div>
+                        <h3 class="text-base font-bold text-white">Global NeoBank Core Web Portal</h3>
+                        <p class="text-xs text-slate-400 mt-2 line-clamp-3">
+                            Engineered a ultra-fast, micro-frontend Web App servicing 2.4M active banking users with sub-100ms transaction execution times.
+                        </p>
+                        <div class="mt-4 flex flex-wrap gap-1.5">
+                            <span class="px-2 py-0.5 rounded bg-slate-900 border border-slate-800 text-[10px] font-mono text-slate-300">Next.js 14</span>
+                            <span class="px-2 py-0.5 rounded bg-slate-900 border border-slate-800 text-[10px] font-mono text-slate-300">GraphQL</span>
+                            <span class="px-2 py-0.5 rounded bg-slate-900 border border-slate-800 text-[10px] font-mono text-slate-300">AWS CloudFront</span>
+                        </div>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-slate-800 flex items-center justify-between">
+                        <div>
+                            <p class="text-[10px] text-slate-500 uppercase font-mono">Key Impact</p>
+                            <p class="text-xs font-bold text-emerald-400 font-mono">68% Bounce Reduction</p>
+                        </div>
+                        <button onclick="openCaseStudy('cs-web-1')" class="px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-xs font-medium text-slate-200">
+                            Full Case Blueprint
+                        </button>
+                    </div>
+                </div>
+
+                <!-- CASE STUDY 2: AI & LLM -->
+                <div class="case-card glass-panel rounded-xl p-5 border border-slate-800 hover:border-purple-500/50 transition-all flex flex-col justify-between" data-cat="ai">
+                    <div>
+                        <div class="flex items-center justify-between text-xs font-mono text-slate-400 mb-2">
+                            <span>Healthcare Tech</span>
+                            <span class="text-purple-400">AI & LLMs</span>
+                        </div>
+                        <h3 class="text-base font-bold text-white">Autonomous Clinical Triage Assistant</h3>
+                        <p class="text-xs text-slate-400 mt-2 line-clamp-3">
+                            Deployed fine-tuned domain LLM with private Retrieval-Augmentation Generation (RAG) to automate patient pre-triage and diagnostic summaries.
+                        </p>
+                        <div class="mt-4 flex flex-wrap gap-1.5">
+                            <span class="px-2 py-0.5 rounded bg-slate-900 border border-slate-800 text-[10px] font-mono text-slate-300">PyTorch</span>
+                            <span class="px-2 py-0.5 rounded bg-slate-900 border border-slate-800 text-[10px] font-mono text-slate-300">Llama 3 70B</span>
+                            <span class="px-2 py-0.5 rounded bg-slate-900 border border-slate-800 text-[10px] font-mono text-slate-300">VectorDB</span>
+                        </div>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-slate-800 flex items-center justify-between">
+                        <div>
+                            <p class="text-[10px] text-slate-500 uppercase font-mono">Key Impact</p>
+                            <p class="text-xs font-bold text-emerald-400 font-mono">82% Speedup in Triage</p>
+                        </div>
+                        <button onclick="openCaseStudy('cs-ai-1')" class="px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-xs font-medium text-slate-200">
+                            Full Case Blueprint
+                        </button>
+                    </div>
+                </div>
+
+                <!-- CASE STUDY 3: CYBERSECURITY -->
+                <div class="case-card glass-panel rounded-xl p-5 border border-slate-800 hover:border-emerald-500/50 transition-all flex flex-col justify-between" data-cat="cyber">
+                    <div>
+                        <div class="flex items-center justify-between text-xs font-mono text-slate-400 mb-2">
+                            <span>Defense / Aerospace</span>
+                            <span class="text-emerald-400">Zero-Trust Cyber</span>
+                        </div>
+                        <h3 class="text-base font-bold text-white">Defense Enterprise Zero-Trust Overhaul</h3>
+                        <p class="text-xs text-slate-400 mt-2 line-clamp-3">
+                            Architected SOC 2 Type II compliant Zero-Trust network architecture spanning 12 global facilities with identity federation and microsegmentation.
+                        </p>
+                        <div class="mt-4 flex flex-wrap gap-1.5">
+                            <span class="px-2 py-0.5 rounded bg-slate-900 border border-slate-800 text-[10px] font-mono text-slate-300">Kubernetes Security</span>
+                            <span class="px-2 py-0.5 rounded bg-slate-900 border border-slate-800 text-[10px] font-mono text-slate-300">SIEM / SOAR</span>
+                        </div>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-slate-800 flex items-center justify-between">
+                        <div>
+                            <p class="text-[10px] text-slate-500 uppercase font-mono">Key Impact</p>
+                            <p class="text-xs font-bold text-emerald-400 font-mono">Zero Intrusion Breaches</p>
+                        </div>
+                        <button onclick="openCaseStudy('cs-cyber-1')" class="px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-xs font-medium text-slate-200">
+                            Full Case Blueprint
+                        </button>
+                    </div>
+                </div>
+
+                <!-- CASE STUDY 4: ROBOTICS -->
+                <div class="case-card glass-panel rounded-xl p-5 border border-slate-800 hover:border-rose-500/50 transition-all flex flex-col justify-between" data-cat="robotics">
+                    <div>
+                        <div class="flex items-center justify-between text-xs font-mono text-slate-400 mb-2">
+                            <span>Smart Manufacturing</span>
+                            <span class="text-rose-400">Robotics & IoT</span>
+                        </div>
+                        <h3 class="text-base font-bold text-white">Automated Factory Digital Twin</h3>
+                        <p class="text-xs text-slate-400 mt-2 line-clamp-3">
+                            Integrated 50,000+ IoT telemetry sensors with ROS2 robotics arms to automate quality control and predictive asset health.
+                        </p>
+                        <div class="mt-4 flex flex-wrap gap-1.5">
+                            <span class="px-2 py-0.5 rounded bg-slate-900 border border-slate-800 text-[10px] font-mono text-slate-300">ROS2</span>
+                            <span class="px-2 py-0.5 rounded bg-slate-900 border border-slate-800 text-[10px] font-mono text-slate-300">MQTT Kafka</span>
+                            <span class="px-2 py-0.5 rounded bg-slate-900 border border-slate-800 text-[10px] font-mono text-slate-300">C++ / Python</span>
+                        </div>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-slate-800 flex items-center justify-between">
+                        <div>
+                            <p class="text-[10px] text-slate-500 uppercase font-mono">Key Impact</p>
+                            <p class="text-xs font-bold text-emerald-400 font-mono">$12.4M Downtime Saved</p>
+                        </div>
+                        <button onclick="openCaseStudy('cs-robotics-1')" class="px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-xs font-medium text-slate-200">
+                            Full Case Blueprint
+                        </button>
+                    </div>
+                </div>
+
+                <!-- CASE STUDY 5: MARKETING -->
+                <div class="case-card glass-panel rounded-xl p-5 border border-slate-800 hover:border-amber-500/50 transition-all flex flex-col justify-between" data-cat="marketing">
+                    <div>
+                        <div class="flex items-center justify-between text-xs font-mono text-slate-400 mb-2">
+                            <span>SaaS Enterprise</span>
+                            <span class="text-amber-400">Digital Growth</span>
+                        </div>
+                        <h3 class="text-base font-bold text-white">B2B SaaS Growth & CRO Scaleup</h3>
+                        <p class="text-xs text-slate-400 mt-2 line-clamp-3">
+                            Deployed multi-channel acquisition automation, programmatic SEO engine, and programmatic lead scoring to triple enterprise demo velocity.
+                        </p>
+                        <div class="mt-4 flex flex-wrap gap-1.5">
+                            <span class="px-2 py-0.5 rounded bg-slate-900 border border-slate-800 text-[10px] font-mono text-slate-300">HubSpot API</span>
+                            <span class="px-2 py-0.5 rounded bg-slate-900 border border-slate-800 text-[10px] font-mono text-slate-300">Customer.io</span>
+                        </div>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-slate-800 flex items-center justify-between">
+                        <div>
+                            <p class="text-[10px] text-slate-500 uppercase font-mono">Key Impact</p>
+                            <p class="text-xs font-bold text-emerald-400 font-mono">310% ARR Growth</p>
+                        </div>
+                        <button onclick="openCaseStudy('cs-marketing-1')" class="px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-xs font-medium text-slate-200">
+                            Full Case Blueprint
+                        </button>
+                    </div>
+                </div>
+
+                <!-- CASE STUDY 6: BLOCKCHAIN -->
+                <div class="case-card glass-panel rounded-xl p-5 border border-slate-800 hover:border-indigo-500/50 transition-all flex flex-col justify-between" data-cat="blockchain">
+                    <div>
+                        <div class="flex items-center justify-between text-xs font-mono text-slate-400 mb-2">
+                            <span>Logistics / Trade</span>
+                            <span class="text-indigo-400">Blockchain DLT</span>
+                        </div>
+                        <h3 class="text-base font-bold text-white">Cross-Border Supply Chain DLT</h3>
+                        <p class="text-xs text-slate-400 mt-2 line-clamp-3">
+                            Built audited smart-contract supply chain tracking engine eliminating paper bill-of-lading fraud across 14 international ports.
+                        </p>
+                        <div class="mt-4 flex flex-wrap gap-1.5">
+                            <span class="px-2 py-0.5 rounded bg-slate-900 border border-slate-800 text-[10px] font-mono text-slate-300">Solidity</span>
+                            <span class="px-2 py-0.5 rounded bg-slate-900 border border-slate-800 text-[10px] font-mono text-slate-300">Polygon L2</span>
+                            <span class="px-2 py-0.5 rounded bg-slate-900 border border-slate-800 text-[10px] font-mono text-slate-300">Chainlink</span>
+                        </div>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-slate-800 flex items-center justify-between">
+                        <div>
+                            <p class="text-[10px] text-slate-500 uppercase font-mono">Key Impact</p>
+                            <p class="text-xs font-bold text-emerald-400 font-mono">100% Settlement Security</p>
+                        </div>
+                        <button onclick="openCaseStudy('cs-blockchain-1')" class="px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-xs font-medium text-slate-200">
+                            Full Case Blueprint
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- SECTION 3: CONTACT & PROPOSAL INQUIRY -->
+        <section id="contact" class="glass-panel rounded-3xl p-8 sm:p-12 border border-slate-800 relative overflow-hidden">
+            <div class="absolute top-0 right-0 w-96 h-96 bg-cyan-500/10 rounded-full filter blur-3xl -z-10"></div>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+                <div>
+                    <span class="text-xs font-mono text-cyan-400 uppercase tracking-widest">Partner With Elvyvor</span>
+                    <h2 class="text-3xl font-black text-white mt-2">Ready to Build Your Enterprise Success Story?</h2>
+                    <p class="text-sm text-slate-400 mt-3 leading-relaxed">
+                        Request a custom proof-of-concept, architecture review, or executive RFP proposal. Our senior consulting team responds within 24 business hours.
+                    </p>
+
+                    <div class="mt-8 space-y-4">
+                        <div class="flex items-center gap-4 p-3 rounded-xl bg-slate-900/60 border border-slate-800">
+                            <div class="w-10 h-10 rounded-lg bg-cyan-500/20 flex items-center justify-center text-cyan-400">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                            <div>
+                                <p class="text-[11px] text-slate-400 font-mono">Direct Inquiry Email</p>
+                                <a href="mailto:connect@elvyvor.com" class="text-sm font-bold text-white hover:text-cyan-400 transition-colors">
+                                    connect@elvyvor.com
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-4 p-3 rounded-xl bg-slate-900/60 border border-slate-800">
+                            <div class="w-10 h-10 rounded-lg bg-emerald-500/20 flex items-center justify-center text-emerald-400">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <div>
+                                <p class="text-[11px] text-slate-400 font-mono">Direct Executive Phone</p>
+                                <a href="tel:+919869043555" class="text-sm font-bold text-white hover:text-emerald-400 transition-colors">
+                                    +91 9869043555
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Quick Contact Form -->
+                <form onsubmit="handleContactSubmit(event)" class="bg-slate-950 p-6 sm:p-8 rounded-2xl border border-slate-800 space-y-4">
+                    <h3 class="text-lg font-bold text-white mb-2">Request Technical Consultation</h3>
+                    
+                    <div>
+                        <label class="block text-xs font-mono text-slate-400 mb-1">Your Full Name / Title</label>
+                        <input type="text" required placeholder="e.g. Alex Vance, CTO" class="w-full bg-slate-900 border border-slate-800 rounded-lg p-2.5 text-xs text-slate-200 focus:outline-none focus:border-cyan-500">
+                    </div>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        <div>
+                            <label class="block text-xs font-mono text-slate-400 mb-1">Work Email</label>
+                            <input type="email" required placeholder="alex@company.com" class="w-full bg-slate-900 border border-slate-800 rounded-lg p-2.5 text-xs text-slate-200 focus:outline-none focus:border-cyan-500">
+                        </div>
+                        <div>
+                            <label class="block text-xs font-mono text-slate-400 mb-1">Service Interest</label>
+                            <select class="w-full bg-slate-900 border border-slate-800 rounded-lg p-2.5 text-xs text-slate-200 focus:outline-none focus:border-cyan-500">
+                                <option>Web & App Development</option>
+                                <option>AI & LLM Integration</option>
+                                <option>Zero-Trust Cybersecurity</option>
+                                <option>Robotics & IoT Systems</option>
+                                <option>Digital Growth & Marketing</option>
+                                <option>Blockchain DLT Solutions</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div>
+                        <label class="block text-xs font-mono text-slate-400 mb-1">Project Scope Brief</label>
+                        <textarea rows="3" required placeholder="Describe timeline, technical requirements, or RFP details..." class="w-full bg-slate-900 border border-slate-800 rounded-lg p-2.5 text-xs text-slate-200 focus:outline-none focus:border-cyan-500"></textarea>
+                    </div>
+
+                    <button type="submit" class="w-full py-3 rounded-lg bg-gradient-to-r from-cyan-500 to-indigo-600 hover:from-cyan-400 hover:to-indigo-500 text-slate-950 font-bold text-xs uppercase tracking-wider transition-all shadow-lg shadow-cyan-500/20">
+                        Submit Proposal Request
+                    </button>
+                    <p id="form-status" class="text-xs text-center text-emerald-400 font-mono hidden">
+                        <i class="fa-solid fa-circle-check mr-1"></i> Request dispatched to connect@elvyvor.com
+                    </p>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- EXECUTIVE CASE STUDY MODAL -->
+    <div id="case-modal" class="fixed inset-0 z-50 hidden bg-slate-950/80 backdrop-blur-md flex items-center justify-center p-4 overflow-y-auto">
+        <div class="bg-slate-900 border border-slate-800 rounded-2xl max-w-3xl w-full p-6 sm:p-8 relative shadow-2xl space-y-6 my-8">
+            <button onclick="closeCaseModal()" class="absolute top-4 right-4 text-slate-400 hover:text-white p-2 text-lg">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+
+            <div id="modal-content">
+                <!-- Dynamic Content Population via JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="border-t border-slate-900 bg-slate-950 py-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 font-mono gap-4">
+            <div>
+                © 2026 Elvyvor Enterprise IT Consulting. All rights reserved.
+            </div>
+            <div class="flex items-center gap-6">
+                <a href="mailto:connect@elvyvor.com" class="hover:text-cyan-400">connect@elvyvor.com</a>
+                <a href="tel:+919869043555" class="hover:text-cyan-400">+91 9869043555</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- INTERACTIVE ENGINE JAVASCRIPT LOGIC -->
+    <script>
+        // --- CASE STUDY BLUEPRINT DATA ---
+        const caseStudyData = {
+            'cs-web-1': {
+                title: 'Global NeoBank Core Web Portal & Micro-Frontends',
+                domain: 'Web & Application Development',
+                client: 'Tier-1 International Digital Bank',
+                challenge: 'The client faced high page-load latency and checkout drop-offs on their legacy web portal, limiting customer acquisition across international markets.',
+                architecture: 'Migrated monolithic infrastructure to a headless Next.js 14 architecture with edge-rendered Server-Side Rendering (SSR), multi-region CDN caching, and GraphQL data federation.',
+                stack: ['Next.js 14', 'TypeScript', 'Tailwind CSS', 'GraphQL', 'AWS CloudFront', 'Docker'],
+                roi: [
+                    '68% Reduction in bounce rate',
+                    '350ms Average Page Load globally',
+                    '99.999% High-Availability SLA maintained over 12 months'
+                ]
+            },
+            'cs-ai-1': {
+                title: 'Autonomous Clinical Triage & Diagnostic Assistant',
+                domain: 'AI & LLM Engineering',
+                client: 'Enterprise Hospital Network',
+                challenge: 'Overburdened emergency triage rooms required automated patient data parsing without compromising strict HIPAA compliance and zero data leakage.',
+                architecture: 'Deployed private on-premise fine-tuned Llama 3 models paired with hybrid vector similarity search (Milvus DB) and cryptographic differential privacy filters.',
+                stack: ['PyTorch', 'Llama 3 70B', 'LangChain', 'Milvus VectorDB', 'FastAPI', 'TRT-LLM'],
+                roi: [
+                    '82% Speedup in initial patient intake triage',
+                    '99.4% Accuracy rate verified by medical board audits',
+                    'Zero external data API leaks (Fully Air-Gapped)'
+                ]
+            },
+            'cs-cyber-1': {
+                title: 'Defense Enterprise Zero-Trust Cyber Overhaul',
+                domain: 'Zero-Trust Cybersecurity',
+                client: 'Defense Tech Systems',
+                challenge: 'Fragmented legacy infrastructure created vulnerability surfaces for targeted state-sponsored cyber threats across global research facilities.',
+                architecture: 'Implemented Zero-Trust Network Architecture (ZTNA) with microsegmentation, automated SIEM/SOAR incident containment, and continuous biometric identity verification.',
+                stack: ['Palo Alto ZTNA', 'Splunk SOAR', 'Kubernetes Security', 'HashiCorp Vault', 'Okta Identity'],
+                roi: [
+                    'Zero successful intrusion incidents over 24 consecutive months',
+                    'Mean Time to Respond (MTTR) reduced to 1.8 minutes',
+                    'SOC 2 Type II and ISO 27001 certifications achieved'
+                ]
+            },
+            'cs-robotics-1': {
+                title: 'Automated Factory Digital Twin & IoT Telemetry',
+                domain: 'Smart Robotics & IoT',
+                client: 'Automotive OEM Manufacturer',
+                challenge: 'Unplanned robotic arm component failures caused costly assembly line outages costing up to $250,000 per hour.',
+                architecture: 'Deployed 50,000+ IoT vibration and thermal telemetry sensors feeding an MQTT/Kafka streaming engine with digital twin predictive health models.',
+                stack: ['ROS2', 'C++ 20', 'MQTT / Apache Kafka', 'TensorFlow Lite', 'Grafana IoT'],
+                roi: [
+                    '$12.4M Saved in prevented downtime',
+                    '99.8% Machinery anomaly detection rate 48 hours prior to failure',
+                    '14% Boost in total manufacturing throughput'
+                ]
+            },
+            'cs-marketing-1': {
+                title: 'B2B SaaS Growth & CRO Acceleration Engine',
+                domain: 'Digital Growth & Marketing',
+                client: 'Enterprise Cloud Management Platform',
+                challenge: 'High customer acquisition cost (CAC) and low conversion rate from trial users to multi-year enterprise contracts.',
+                architecture: 'Designed multi-touch attribution engine, programmatic lead scoring pipelines, automated conversion rate optimization (CRO), and targeted account-based marketing (ABM).',
+                stack: ['HubSpot Enterprise', 'Customer.io', 'Segment CDP', 'Google Analytics 4 API', 'Clearbit'],
+                roi: [
+                    '310% Growth in Enterprise Annual Recurring Revenue (ARR)',
+                    '44% Reduction in Customer Acquisition Cost (CAC)',
+                    '4.2x Demo-to-Closed Deal Conversion Rate'
+                ]
+            },
+            'cs-blockchain-1': {
+                title: 'Cross-Border Supply Chain DLT & Smart Contracts',
+                domain: 'Blockchain DLT Solutions',
+                client: 'Global Logistics Consortium',
+                challenge: 'Paper bill-of-lading fraud and slow 5-day payment settlement cycles between international freight handlers.',
+                architecture: 'Architected EVM-compatible layer-2 smart contracts with Zero-Knowledge (ZK) privacy rollups for automated escrow releases upon Verified IoT port arrival.',
+                stack: ['Solidity', 'Polygon L2', 'Chainlink Oracles', 'Hardhat', 'Ethers.js'],
+                roi: [
+                    'Settlement time reduced from 5 days to 1.2 seconds',
+                    '100% Elimination of fraudulent paperwork filings',
+                    '$4.5M Saved annually in administrative processing fees'
+                ]
+            }
+        };
+
+        // --- DOMAIN FILTERING LOGIC ---
+        function switchCategory(cat) {
+            // Update active tab styles
+            document.querySelectorAll('.tab-btn').forEach(btn => {
+                if (btn.dataset.cat === cat) {
+                    btn.className = 'tab-btn px-4 py-2 rounded-xl text-xs font-semibold whitespace-nowrap transition-all bg-cyan-500 text-slate-950 shadow-md';
+                } else {
+                    btn.className = 'tab-btn px-4 py-2 rounded-xl text-xs font-semibold whitespace-nowrap transition-all bg-slate-900 text-slate-300 hover:bg-slate-800 border border-slate-800';
+                }
+            });
+
+            // Filter Demo Sandbox Cards
+            document.querySelectorAll('.sandbox-card').forEach(card => {
+                if (cat === 'all' || card.dataset.cat === cat) {
+                    card.style.display = 'flex';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+
+            // Filter Case Study Blueprint Cards
+            document.querySelectorAll('.case-card').forEach(card => {
+                if (cat === 'all' || card.dataset.cat === cat) {
+                    card.style.display = 'flex';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        }
+
+        // --- DEMO 1: LIGHTHOUSE AUDIT SIMULATION ---
+        function runAuditSimulation() {
+            const score = document.getElementById('lh-score');
+            const fcp = document.getElementById('fcp-val');
+            const lcp = document.getElementById('lcp-val');
+            
+            score.innerText = '..';
+            setTimeout(() => {
+                score.innerText = '99';
+                fcp.innerText = (0.2 + Math.random() * 0.2).toFixed(2) + 's';
+                lcp.innerText = (0.5 + Math.random() * 0.3).toFixed(2) + 's';
+            }, 500);
+        }
+
+        // --- DEMO 2: AI INFERENCE SIMULATION ---
+        const aiResponses = {
+            hipaa: "HIPAA Analysis Complete: 100% compliant multi-tenant schema verified. Zero PHI exposure detected in prompt context using AES-256 encrypted vector search.",
+            fraud: "Anomalous Transaction Alert: Isolated 3 micro-deposits from IP 194.26.11.x matching card-testing fingerprint patterns. Blocked in 12ms.",
+            contract: "Clause Extraction: Section 14.2 contains standard cross-indemnification capped at $5,000,000. SLA threshold benchmarked at 99.99% availability."
+        };
+
+        function updatePromptText() {
+            document.getElementById('ai-response-text').innerText = 'Ready. Click "Run LLM Inference" to stream response...';
+            document.getElementById('ai-speed').innerText = 'Latency: -- ms';
+            document.getElementById('ai-tokens').innerText = 'Tokens/sec: --';
+        }
+
+        function runAiInference() {
+            const selectedKey = document.getElementById('ai-prompt-select').value;
+            const outputText = document.getElementById('ai-response-text');
+            const speedLabel = document.getElementById('ai-speed');
+            const tokenLabel = document.getElementById('ai-tokens');
+
+            outputText.innerText = "Streaming response tokens...";
+            let fullText = aiResponses[selectedKey];
+            let idx = 0;
+
+            const startTime = performance.now();
+            const interval = setInterval(() => {
+                outputText.innerText = fullText.slice(0, idx);
+                idx++;
+                if (idx > fullText.length) {
+                    clearInterval(interval);
+                    const elapsed = Math.round(performance.now() - startTime);
+                    speedLabel.innerText = `Latency: ${elapsed} ms`;
+                    tokenLabel.innerText = `Tokens/sec: ${Math.round((fullText.length / elapsed) * 1000 * 2.5)}`;
+                }
+            }, 15);
+        }
+
+        // --- DEMO 3: CYBERSECURITY THREAT SIMULATION ---
+        function triggerThreatSim() {
+            const logsContainer = document.getElementById('soc-logs');
+            const timestamp = new Date().toLocaleTimeString();
+            
+            const threatLog = document.createElement('p');
+            threatLog.className = 'text-rose-400 font-bold';
+            threatLog.innerText = `[${timestamp}] ALERT: High-density SYN Flood Attack Detected from 185.220.101.x`;
+            logsContainer.appendChild(threatLog);
+
+            setTimeout(() => {
+                const mitigationLog = document.createElement('p');
+                mitigationLog.className = 'text-cyan-400';
+                mitigationLog.innerText = `[${timestamp}] CONTAINED: Microsegmentation firewall isolated malicious subnet in 1.2s.`;
+                logsContainer.appendChild(mitigationLog);
+                logsContainer.scrollTop = logsContainer.scrollHeight;
+            }, 700);
+        }
+
+        // --- DEMO 4: ROBOTICS SENSOR CALIBRATION ---
+        function calibrateIotSensors() {
+            document.getElementById('iot-rpm').innerText = Math.floor(1800 + Math.random() * 100);
+            document.getElementById('iot-temp').innerText = (41 + Math.random() * 3).toFixed(1) + '°';
+            document.getElementById('iot-vib').innerText = (0.01 + Math.random() * 0.03).toFixed(2) + 'g';
+        }
+
+        // --- DEMO 5: DIGITAL GROWTH ROI CALCULATOR ---
+        function updateGrowthModel() {
+            const spend = parseInt(document.getElementById('mkt-spend').value);
+            document.getElementById('mkt-spend-label').innerText = '$' + spend.toLocaleString();
+            const pipeline = spend * 7.5;
+            document.getElementById('mkt-pipeline').innerText = '$' + pipeline.toLocaleString();
+        }
+
+        // --- DEMO 6: BLOCKCHAIN HASH VERIFIER ---
+        function verifyBlockContract() {
+            const hashElem = document.getElementById('block-hash');
+            const hexChars = '0123456789abcdef';
+            let newHash = '0x';
+            for (let i = 0; i < 24; i++) {
+                newHash += hexChars[Math.floor(Math.random() * hexChars.length)];
+            }
+            hashElem.innerText = newHash + '...[VERIFIED]';
+        }
+
+        // --- MODAL CONTROLS FOR CASE STUDIES ---
+        function openCaseStudy(key) {
+            const data = caseStudyData[key];
+            if (!data) return;
+
+            const modalContent = document.getElementById('modal-content');
+            modalContent.innerHTML = `
+                <div class="flex items-center gap-2 text-xs font-mono text-cyan-400 uppercase tracking-widest">
+                    <i class="fa-solid fa-cube"></i> ${data.domain} Blueprint
+                </div>
+                <h2 class="text-2xl font-black text-white mt-1">${data.title}</h2>
+                <p class="text-xs font-mono text-slate-400">Client Profile: ${data.client}</p>
+
+                <div class="space-y-4 pt-4 border-t border-slate-800 text-xs">
+                    <div>
+                        <h4 class="font-bold text-slate-200 uppercase font-mono text-[11px]">Operational Challenge</h4>
+                        <p class="text-slate-400 mt-1 leading-relaxed">${data.challenge}</p>
+                    </div>
+
+                    <div>
+                        <h4 class="font-bold text-slate-200 uppercase font-mono text-[11px]">Technical Architecture & Solution</h4>
+                        <p class="text-slate-400 mt-1 leading-relaxed">${data.architecture}</p>
+                    </div>
+
+                    <div>
+                        <h4 class="font-bold text-slate-200 uppercase font-mono text-[11px]">Technology Stack Deployed</h4>
+                        <div class="flex flex-wrap gap-2 mt-2">
+                            ${data.stack.map(s => `<span class="px-2.5 py-1 rounded bg-slate-950 border border-slate-800 font-mono text-cyan-300 text-[11px]">${s}</span>`).join('')}
+                        </div>
+                    </div>
+
+                    <div class="p-4 rounded-xl bg-slate-950 border border-emerald-500/30">
+                        <h4 class="font-bold text-emerald-400 uppercase font-mono text-[11px] mb-2">Verified ROI & Performance Metrics</h4>
+                        <ul class="space-y-1.5 text-slate-300 font-mono">
+                            ${data.roi.map(r => `<li><i class="fa-solid fa-check text-emerald-400 mr-2"></i>${r}</li>`).join('')}
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="pt-4 flex items-center justify-between border-t border-slate-800">
+                    <a href="mailto:connect@elvyvor.com?subject=Inquiry regarding ${encodeURIComponent(data.title)}" class="px-4 py-2 rounded-lg bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-bold text-xs">
+                        Discuss Similar Blueprint
+                    </a>
+                    <button onclick="closeCaseModal()" class="text-xs text-slate-400 hover:text-white">
+                        Close Preview
+                    </button>
+                </div>
+            `;
+
+            document.getElementById('case-modal').classList.remove('hidden');
+        }
+
+        function closeCaseModal() {
+            document.getElementById('case-modal').classList.add('hidden');
+        }
+
+        // --- CONTACT FORM SUBMISSION ---
+        function handleContactSubmit(e) {
+            e.preventDefault();
+            const status = document.getElementById('form-status');
+            status.classList.remove('hidden');
+            setTimeout(() => {
+                e.target.reset();
+            }, 1000);
+        }
+    </script>
+</body>
+</html>
